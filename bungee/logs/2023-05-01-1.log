@@ -1,0 +1,135 @@
+[22:51:42] [main/INFO]: Using mbed TLS based native cipher.
+[22:51:42] [main/INFO]: Using zlib based native compressor.
+[22:51:42] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526
+[22:51:43] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[22:51:43] [main/INFO]: Epoll is working, utilising it!
+[22:51:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[22:51:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[22:51:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[22:51:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[22:51:44] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[22:51:44] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[22:51:44] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:44] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:44] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:44] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:44] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:44] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:45] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[22:51:51] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[22:51:51] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[22:51:51] [main/WARN]: Could not load server icon
+java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
+	at net.md_5.bungee.api.Favicon.create(Favicon.java:80) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.conf.Configuration.load(Configuration.java:89) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.github.waterfallmc.waterfall.conf.WaterfallConfiguration.load(WaterfallConfiguration.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:288) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+[22:51:51] [main/WARN]: Forced host server pvp is not defined
+[22:51:51] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:51] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:51] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:51] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:52] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:52] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:3df3a27:526 by WaterfallMC
+[22:51:52] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[22:51:52] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[22:51:55] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[22:51:55] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.5 by lax1dude
+[22:51:55] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[22:56:37] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/172.31.128.1:56906]: Connected via websocket
+[22:56:37] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/172.31.128.1:56906]: Origin header is https://reslauncher.vercel.app
+[22:56:38] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/172.31.128.1:56906]: Logged in as 'Azak25'
+[22:56:38] [Netty Worker IO Thread #4/INFO]: [/172.31.128.1:56906|Azak25] -> UpstreamBridge has connected
+[22:56:38] [Netty Worker IO Thread #4/WARN]: Plugin listener net.lax1dude.eaglercraft.v1_8.plugin.gateway_bungeecord.handlers.EaglerPacketEventListener took 81ms to process event PostLoginEvent(player=Azak25)!
+[22:56:39] [Netty Worker IO Thread #4/WARN]: Event LoginEvent(cancelled=false, cancelReasonComponents=null, loginResult=null, connection=[/172.31.128.1:56906|Azak25] <-> InitialHandler) took 756ms to process!
+[22:56:39] [Netty Worker IO Thread #4/WARN]: Event PreLoginEvent(cancelled=false, cancelReasonComponents=null, connection=[/172.31.128.1:56906|Azak25] <-> InitialHandler) took 796ms to process!
+[22:56:39] [Netty Worker IO Thread #4/INFO]: [Azak25|/172.31.128.1:56906] <-> ServerConnector [lobby] has connected
+[23:00:23] [Netty Worker IO Thread #4/INFO]: [Azak25] disconnected with: Proxy lost connection to server.
+[23:00:23] [Netty Worker IO Thread #4/INFO]: [/172.31.128.1:56906|Azak25] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:00:23] [Netty Worker IO Thread #4/INFO]: [/172.31.128.1:56906|Azak25] -> UpstreamBridge has disconnected
+[23:00:27] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/172.31.128.1:57102]: Connected via websocket
+[23:00:27] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/172.31.128.1:57102]: Origin header is https://reslauncher.vercel.app
+[23:00:27] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/172.31.128.1:57102]: Logged in as 'Azak25'
+[23:00:27] [Netty Worker IO Thread #5/INFO]: [/172.31.128.1:57102|Azak25] -> UpstreamBridge has connected
+[23:00:27] [Netty Worker IO Thread #5/WARN]: Error occurred processing connection for Azak25 AnnotatedConnectException : finishConnect(..) failed: Connection refused: mars.cxmpute.com/135.181.210.101:10158
+[23:00:27] [Netty Worker IO Thread #5/INFO]: [Azak25] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[23:00:27] [Netty Worker IO Thread #5/INFO]: [/172.31.128.1:57102|Azak25] -> UpstreamBridge has disconnected
+[23:01:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:59490]: Connected via websocket
+[23:01:14] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:59490]: Origin header is https://reslauncher.vercel.app
+[23:01:15] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/172.31.128.1:59490]: Logged in as 'Azak25'
+[23:01:15] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:59490|Azak25] -> UpstreamBridge has connected
+[23:01:15] [Netty Worker IO Thread #0/INFO]: [Azak25|/172.31.128.1:59490] <-> ServerConnector [lobby] has connected
+[23:01:27] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:59490|Azak25] -> UpstreamBridge has disconnected
+[23:02:05] [Netty Worker IO Thread #0/INFO]: [Azak25] disconnected with: Proxy lost connection to server.
+[23:02:05] [Netty Worker IO Thread #0/INFO]: [/172.31.128.1:59490|Azak25] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:02:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/172.31.128.1:53892]: Connected via websocket
+[23:02:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/172.31.128.1:53892]: Origin header is https://reslauncher.vercel.app
+[23:02:24] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/172.31.128.1:53892]: Logged in as 'Azak25'
+[23:02:24] [Netty Worker IO Thread #2/INFO]: [/172.31.128.1:53892|Azak25] -> UpstreamBridge has connected
+[23:02:24] [Netty Worker IO Thread #2/INFO]: [Azak25|/172.31.128.1:53892] <-> ServerConnector [lobby] has connected
+[23:06:45] [Netty Worker IO Thread #2/ERROR]: [/172.31.128.1:53892|Azak25] <-> DownstreamBridge <-> [lobby] - encountered exception
+java.lang.IllegalArgumentException: Team CIT-99a7fc70b59e already exists in this scoreboard
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:220) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.api.score.Scoreboard.addTeam(Scoreboard.java:73) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:265) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.protocol.packet.Team.handle(Team.java:124) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[bungee.jar:git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:3df3a27:526]
+	at java.lang.Thread.run(Thread.java:750) ~[?:1.8.0_322]
+[23:06:45] [Netty Worker IO Thread #2/INFO]: [Azak25] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[23:06:45] [Netty Worker IO Thread #2/INFO]: [/172.31.128.1:53892|Azak25] -> UpstreamBridge has disconnected
+[23:06:46] [Netty Worker IO Thread #2/INFO]: [/172.31.128.1:53892|Azak25] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:06:53] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/172.31.128.1:40272]: Connected via websocket
+[23:06:53] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/172.31.128.1:40272]: Origin header is https://reslauncher.vercel.app
+[23:06:54] [Netty Worker IO Thread #4/INFO] [EaglercraftXBungee]: [/172.31.128.1:40272]: Logged in as 'Azak25'
+[23:06:54] [Netty Worker IO Thread #4/INFO]: [/172.31.128.1:40272|Azak25] -> UpstreamBridge has connected
+[23:06:54] [Netty Worker IO Thread #4/INFO]: [Azak25|/172.31.128.1:40272] <-> ServerConnector [lobby] has connected
+[23:08:54] [Netty Worker IO Thread #4/INFO]: [Azak25] disconnected with: Login timed out!
+[23:08:54] [Netty Worker IO Thread #4/INFO]: [/172.31.128.1:40272|Azak25] -> UpstreamBridge has disconnected
+[23:08:54] [Netty Worker IO Thread #4/INFO]: [/172.31.128.1:40272|Azak25] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:24:23] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/172.31.128.1:41156]: Connected via websocket
+[23:24:23] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/172.31.128.1:41156]: Origin header is https://reslauncher.vercel.app
+[23:24:24] [Netty Worker IO Thread #5/INFO] [EaglercraftXBungee]: [/172.31.128.1:41156]: Logged in as 'Azak25'
+[23:24:24] [Netty Worker IO Thread #5/INFO]: [/172.31.128.1:41156|Azak25] -> UpstreamBridge has connected
+[23:24:24] [Netty Worker IO Thread #5/INFO]: [Azak25|/172.31.128.1:41156] <-> ServerConnector [lobby] has connected
+[23:25:40] [Netty Worker IO Thread #5/INFO]: [/172.31.128.1:41156|Azak25] -> UpstreamBridge has disconnected
+[23:25:40] [Netty Worker IO Thread #5/INFO]: [Azak25] disconnected with: Proxy lost connection to server.
+[23:25:40] [Netty Worker IO Thread #5/INFO]: [/172.31.128.1:41156|Azak25] <-> DownstreamBridge <-> [lobby] has disconnected
+[23:31:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:33642]: Connected via websocket
+[23:31:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:33642]: Origin header is https://reslauncher.vercel.app
+[23:31:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/172.31.128.1:33642]: Logged in as 'Azak25'
+[23:31:52] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:33642|Azak25] -> UpstreamBridge has connected
+[23:31:52] [Netty Worker IO Thread #1/INFO]: [Azak25|/172.31.128.1:33642] <-> ServerConnector [lobby] has connected
+[23:44:18] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:33642|Azak25] -> UpstreamBridge has disconnected
+[23:44:18] [Netty Worker IO Thread #1/INFO]: [Azak25] disconnected with: Proxy lost connection to server.
+[23:44:18] [Netty Worker IO Thread #1/INFO]: [/172.31.128.1:33642|Azak25] <-> DownstreamBridge <-> [lobby] has disconnected

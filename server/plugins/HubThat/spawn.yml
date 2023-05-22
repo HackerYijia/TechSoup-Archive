@@ -1,0 +1,19 @@
+spawn:
+  world:
+    world: world
+    KitPVP-Plain: world
+  x:
+    world: 242.37216841693373
+    KitPVP-Plain: 242.37216841693373
+  y:
+    world: 54.0
+    KitPVP-Plain: 54.0
+  z:
+    world: 1348.5398981922651
+    KitPVP-Plain: 1348.5398981922651
+  yaw:
+    world: -8.984375
+    KitPVP-Plain: 85.71875
+  pitch:
+    world: 89.03125
+    KitPVP-Plain: 90.0

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1684105077782
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684111992714
+  login: 1684111930635
+money: '0'
+last-account-name: CosmicXD
+lastlocation:
+  world: 401fd23e-0213-45c3-87a4-b93bb2f8c56e
+  world-name: KitPVP-Plain
+  x: 19.250227683718492
+  y: 9.0
+  z: -21.38814190410613
+  yaw: -76.06876373291016
+  pitch: 2.2843713760375977
+logoutlocation:
+  world: 401fd23e-0213-45c3-87a4-b93bb2f8c56e
+  world-name: KitPVP-Plain
+  x: 15.001910872572624
+  y: 41.364875979913286
+  z: -19.84806899165143
+  yaw: 264.8218994140625
+  pitch: 32.8125

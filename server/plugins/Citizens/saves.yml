@@ -1,0 +1,568 @@
+# Citizens NPC Storage
+
+
+
+last-created-npc-id: 7
+npc:
+  '0':
+    name: Fly!
+    uuid: 4b142cbf-8f81-4b56-a478-993bd6d8f31b
+    traits:
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: af rocket @p
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '1':
+            command: fly
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+          '2':
+            command: fly
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 5
+          '3':
+            command: fly
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 5
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      rotationtrait:
+        globalParameters: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      inventory: {}
+      age:
+        age: 0
+        locked: true
+      scoreboardtrait: {}
+      spawned: true
+      location:
+        bodyYaw: 42.11148
+        world: KitPVP-Plain
+        x: '-23.6377'
+        y: '9.0'
+        z: '21.2747'
+        yaw: '42.1115'
+        pitch: '-79.3978'
+    traitnames: mounttrait,spawned,lookclose,rotationtrait,age,skintrait,type,inventory,scoreboardtrait,owner,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: 250d5b02-c1d8-417c-b5a4-1264b04c7f0f
+      cached-skin-uuid-name: kanobu
+    name: Paintball
+    uuid: 0d2517d7-4082-4bd9-b68b-1e8db7eee343
+    traits:
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      inventory: {}
+      age:
+        age: 0
+        locked: true
+      type: PLAYER
+      scoreboardtrait: {}
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: JXeDsQdiY4wmj3ovYIv6T9j8biIQUJV461qACHiB0oaUILxecEmPftlzoxY8V8sMFfPUbnvkZXrG9b7nBOam2bn4cu8j1F1sgUC2GWRzyO8pqlQYOySEnEnieuY53yOcYzoiZXjWRiWg+h8Sep40fPUPS8mJXCWU91HF/6Wvxb4X1xfZlNRRx6KmW8bke4Xeof3sn0+BKq8VvdxYohj9xhm+qe0kBNvEBo2CT3CxIUzEiE1c9J6CPqKcbIpRw5oByjFUwDH4U8b/u28SedSV0n+09IPOAaKSSdAOyFIoGuip78/SrKBQA18uiSpYbNffp25fXOGY6LfYHoIDBH4QvCX990mdsMa5R71g4M1/2eDaZEFNps4A68xeiCqTaIrA/FAas6fvMvdrlXLmxwQ3f+RAL48r427hz067a15JIG8fkU828O0p5kVGUzlDLmzTrMugIoWglpJGQszcMODFXtaoBiYsPd0woHLVB6Vt15FSpOgTK3pj+NbwEY2bhQQY6VIGGF48uDQZX3rBrs+FYfBg/Q6+HcKCsrLugFVJxtcmWM1NWdAYJn9FFW7urIjzvQpSSCv4dMoyfapnL95XQ3iaahOGy5uhbfi1ERxtQofH9BSXGHwcggJW7JzF/awYL3ihf0GRCP0QNFS2qDT4khO9qKmra9pmBt7qMaufR/c=
+        skinName: Kanobu
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NDE2Njk2NjQyNywKICAicHJvZmlsZUlkIiA6ICIyNTBkNWIwMmMxZDg0MTdjYjVhNDEyNjRiMDRjN2YwZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYW5vYnUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZkNmE5MDJkOGU3MWY4MjlkZjJlNTZmZmRmYjQzMmY0MjM2Mjg1YmYxYTI0MzA3N2IxOTk2ZWQ4MTU2MzIzMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      rotationtrait:
+        globalParameters: {}
+      location:
+        bodyYaw: 3.0444717
+        world: world
+        x: '243.6101'
+        y: '54.5'
+        z: '1338.5616'
+        yaw: '3.0445'
+        pitch: '-6.5969'
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: paintball join Paintball
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: mounttrait,spawned,lookclose,rotationtrait,age,skintrait,type,inventory,scoreboardtrait,owner,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid: 418175a3-4797-4752-bdea-20affdbf7f9d
+      cached-skin-uuid-name: azumo
+    name: KitPVP
+    uuid: 7401fa86-9fb1-47af-bba5-41de680adad6
+    traits:
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      inventory: {}
+      age:
+        age: 0
+        locked: true
+      type: PLAYER
+      scoreboardtrait: {}
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: QZ84BILqJxB/vccyyINq/41Fy/aUVkYdqQdynlhuH/Hv57iefnJbv162bPcQx6JZ6ZawAeooMoPm1Y83te3Gcq+40T9pUNnAitIWsE6xt/rX2yqBS7ORUsPFTMBI+hFzEHdbs6RWJtdumXcwXi0FM7B9hCN0dLzs/EiKc+MvgIroKZU8ikOmWMCb/cnm5LHZTRJlb6uDoJut+kEFp/knXqHadoWWsz9RhiP/pw/GJB1X62FGU0N0hP6C2oEHcCyWFHnk1lMnzstRAZbnbxpbEMrRUDLVdtZmTgS+6thZ0jOwakWkA5vzDPhm/qsPy5jd4Vs9UVlwfAAWi64AAif7mPV5rDQaBAvpwP7RaQRpQjKr0o1q9TsGQxWIaT6Qt+RQB/fp72kzKER/tyHUGG59WWmHaP+VkbW1wTSedhcrFjvNlMyiCBp/lS2ciUvIapIuYJiltc6Tvu26zFCx+6QU5siRxlmHsyzUtTl+Pna9CORq2X7vxVCIXCcjfrc/MMSw3c+XcumXlq3nWFlbZI/EPY1yMLiqTYDq+ggQsmE/TAIvKEK2wrMX0VX9ZtB7rV/bQmg/Tl6StSIe7IenAMxfGV5Rqz8Qr2m9oBmLNKePt/6BVS2jMMz4mn7dXm0maJKXBd9njB6CKQnylOrc38Ob4cHOjwB6+ZO/QfMYBmlQFnM=
+        skinName: Azumo
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NDE2NjkzNDYxNiwKICAicHJvZmlsZUlkIiA6ICI0MTgxNzVhMzQ3OTc0NzUyYmRlYTIwYWZmZGJmN2Y5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBenVtbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYTk1YTBkYzU3ZjAzYzg3ZjI1OWZhNWEzMTJmMWFiODU1ZWViNjFmNjhiZTNiMGFiNTY2MWFlNjI1YTQ5OTY3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+      rotationtrait:
+        globalParameters: {}
+      location:
+        bodyYaw: -22.166023
+        world: world
+        x: '241.5287'
+        y: '54.5'
+        z: '1338.4854'
+        yaw: '-22.166'
+        pitch: '-6.0195'
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: kp arena KitPVP-Plain
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: mounttrait,spawned,lookclose,rotationtrait,skintrait,age,type,inventory,scoreboardtrait,owner,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: Kit Selector
+    uuid: 5185aabd-1543-49bc-a746-9ca107c848a3
+    traits:
+      inventory: {}
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      scoreboardtrait: {}
+      age:
+        age: 0
+        locked: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: kp menu
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      location:
+        bodyYaw: 75.18956
+        world: KitPVP-Plain
+        x: '16.9624'
+        y: '9.0'
+        z: '-16.0283'
+        yaw: '75.1896'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      rotationtrait:
+        globalParameters: {}
+    traitnames: mounttrait,lookclose,spawned,rotationtrait,age,skintrait,type,inventory,scoreboardtrait,commandtrait,owner,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    metadata:
+      cached-skin-uuid: 05a1c916-1b59-460d-9ca1-8173a65b3d65
+      cached-skin-uuid-name: straaight
+    name: Azak25
+    uuid: 9d3b80cb-e66e-4b29-bc6a-c3d1f11f4529
+    traits:
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      skintrait:
+        fetchDefaultSkin: true
+        signature: HSqgv6MQvqYNHHA0cNpTWK/Mdo9D0UwGz6YO192Iip/K/aPaIN06z1IJ9SUP7Vo14vEe6irUEQwnYhJGru3D30Z8IOF7MIgD6FPXLxTa6tV+LkRhoyfdE9iEf5TWew3ReNrqgYdaCpekiuUFKZb+dd8VRlHJrcPuQOF2JryKKqfmye+Ooz+v4v7fSr3aNq7AzQN+mWiUqJ0GDKbX53oNwB7QgSLErlwAQLiSpgMgf14kjiBXaZPM7FyLbhSEoMJJjpjP57Igd1S9T/nuZmoi/xmlaTLc2SM0sKlTm5vfx/yjVj+Cpm2itcUAcKLvsx4E8xpqyojlmIiEgqnnv0tYv3hRvNTWXwKAjf5eTW25hxvLIQhQ/lhqhOm3ZlRVsLxSA3+4Z28ekgAjDiiqBH8q82/i3aBHzznyl2LAlAVPWC2BrK1U/RXrtRvsqs9XG+wBTafF+fnvyvMVy4cRMvVpcvKRQ+ardzILoxIpLxKX7BRKbdlXNPlW/FYNuimxuM+3IwiVdAjoPKy1wn9mzjZayb/4mSJaE5NxLf9+Ffz4IdsUAsySnl38mEcEAmleuVBxGOJKzj8yYqst3Q5ve/1kGOUJHdkZvBc6tdW+vhn8b/Ppe2+QRnCRNEsJpDuiC/L27kKdDTUdaxUKiPpvmFdxobE3OtkbnDYPrpc1eXBAv5w=
+        skinName: Straaight
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NDE2ODExMzc4MSwKICAicHJvZmlsZUlkIiA6ICIwNWExYzkxNjFiNTk0NjBkOWNhMTgxNzNhNjViM2Q2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdHJhYWlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM4YTg1MGUwYjMyZGRkYTk2ZTU2MTE3ZjhkYzRlZGE0NmI3NWQ3NzViMjJmOWJmMjI2ZmU2NzhlYmMyMDAyYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+        updateSkins: false
+      location:
+        bodyYaw: -129.58754
+        world: world
+        x: '239.3691'
+        y: '54.0'
+        z: '1351.5916'
+        yaw: '-129.5875'
+        pitch: '0.0'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      speech: chat
+      scoreboardtrait: {}
+      age:
+        age: 0
+        locked: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '1':
+            command: say I am an pvper! Immortal! Craft!
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      rotationtrait:
+        globalParameters: {}
+    traitnames: mounttrait,skintrait,type,commandtrait,location,lookclose,spawned,rotationtrait,age,inventory,scoreboardtrait,speech,owner
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid: 7c922471-0347-4a16-9000-06a334d5221c
+      cached-skin-uuid-name: nebula
+    name: Nebula
+    uuid: 57a565a4-e767-4351-ab7f-70a912163b8e
+    traits:
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      skintrait:
+        fetchDefaultSkin: true
+        signature: dneigkkD+SO3zvLKjyyCdTVTZ0c8xrYoHUqyfm8Cik5ggsiuCzBBrmxBImvKypFQmMIOy5FNyMD2W4050NauC1YXUj20r5Q0VfOkoBuo/dmslnnu4jhNd0XxZgK6tASYhhoNxn9dEhGiQAo0X2vo2I7MO/3RpbhViXd/Yy9r8aHtIvrlTg+oWp8YfeIYFA/UX2Y/vhtL5gm+YV1vwmERtndv1zs+rrR2RYjmT0O2IB39bouKbXTjzdkVVsAOWeRCIUHORdZIQ4gppsLU2Xuigp9ucpnP4xiLdIo3XfN1ZKQji+X/qJpcW3zNLYQdDGcUipi23D8Jtcemg2DMjB1l0JFhfUy+e+fv6ZCukWDSzD2QAMHZjv/uFzKqKawzRWsqsFC6QX1J1HeErKtNGkMrpGfrA+aYa8q3cHBzw0NqAeGU8t96/kp6Eeu+SXyNHGQg3q7Bdco+rtewqLvlD8dh6c2Dj1VXJLcUskTevqPp/eOqBUggze7Hl6o6ZV8Xem4mwGV6XTP/9JiDQAhaVzBZnUeP+azDYeFTEfEF/2gt9G3sWepMvhDCB9l4FzINHe0sEW8TRHmwIxqm16fra2Kz2xvWM91VVlTkVAP6cJWmcUVznIF7e63RehOHpEn8GnC888TxIxmIGhNo4XCdsO16o4wGNM8WP8dTHimkUhOlkeA=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NDE2ODA1NTgwNCwKICAicHJvZmlsZUlkIiA6ICI3YzkyMjQ3MTAzNDc0YTE2OTAwMDA2YTMzNGQ1MjIxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWJ1bGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVlZWM3YjkzNTY1ZTA4NWVhYjQ1NWI0OWM3ZWJmYjYxYTAyNzBhY2ZhOTQxYTI0M2FhOWU2MzhkODA5OTk1MCIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      location:
+        bodyYaw: -90.012665
+        world: world
+        x: '239.4932'
+        y: '54.0'
+        z: '1348.4704'
+        yaw: '-90.0127'
+        pitch: '-17.7112'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      speech: chat
+      scoreboardtrait: {}
+      age:
+        age: 0
+        locked: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '1':
+            command: say this server is nice! maybe you should go check out my server too!
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      rotationtrait:
+        globalParameters: {}
+    traitnames: mounttrait,skintrait,type,commandtrait,location,spawned,lookclose,rotationtrait,age,inventory,scoreboardtrait,owner,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: I
+    uuid: e96466c6-75d2-437a-aeab-80e8d97f6fb7
+    traits:
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 82.51869
+        world: world
+        x: '245.5884'
+        y: '54.0'
+        z: '1348.517'
+        yaw: '82.5187'
+        pitch: '-25.5052'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      inventory: {}
+      speech: chat
+      scoreboardtrait: {}
+      age:
+        age: 0
+        locked: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: say You are @p! Ohh, I remember you!
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      rotationtrait:
+        globalParameters: {}
+    traitnames: mounttrait,skintrait,type,commandtrait,location,spawned,lookclose,rotationtrait,age,inventory,scoreboardtrait,owner,speech
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid: 9b0d4248-b96d-4a84-9feb-847087d16b1b
+      cached-skin-uuid-name: bedwars
+    name: BedWars
+    uuid: 3c98d3da-a1b2-4840-bfb4-1a02c485018a
+    traits:
+      inventory: {}
+      owner:
+        uuid: 4d7d406d-f8a5-34e6-82cc-1a76e054637f
+      scoreboardtrait: {}
+      age:
+        age: 0
+        locked: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: D0TAbdmmG07Zk16JwdXiTZ204UpmcBNh8CYrsn3i96nGHwFV24yE+bYhaBAj3B1W8aL7+h+8+xNpRxI/e3ns8/h1iZcSFsjlYp5RPDzEtiJXM67tJ/sIw/6acyS8ylGTIji9Un6Ezf5BkRH7x80P/+vOUceXh5rSGYPySq8rQ0rwBHG1/HgkpDsKbp9FAPE6DeYClOL8Q9/6BwRHHFAW3I2WqGRTxtSdX70ws++FAAoIZJBzURQ6zwkdWB6Utcr2DigSjGMzRyw2mGFPh47Sih9MVAN1FqtCwC9kBJ44XGkG3Kt+vduvVnzI9fJLrzs5ajMZ+wfNViEolEitOOHuK5jvqP4MaVcvKkh/+yI7Pxe2LnUsTJDZ0iEzzoScOVCt19udH4ggHF5p6bXaT7gzPjtteAnHweYKT544ZdZ8OzPxgcWUWrper/KZlTOlTreEhSiJO1HCYNXl+b2yG9e221diPnS26nhQy38MSSMVLBIQpOOhrJGtmPyb1azQu9B+VLDYO5b08XhkGAcv+vuYlg4q0+NpCtA0XwPfo7RVoH/ddRfb+7SmR9INJEXv5iDlWOZ1vR6EfOyDcYr+J43yc1pr+5+8NM5sHxMx3B/2/OfqVP3nv8fO8LOUtxNpecPJJ9r2aLBXICuaC+31v9Ane0+5EyEoENouJCIcDDSi+P4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY4NDE3MzIwMTAxMywKICAicHJvZmlsZUlkIiA6ICI5YjBkNDI0OGI5NmQ0YTg0OWZlYjg0NzA4N2QxNmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWRXYXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EyZThmNDRlZGE5ZTk4ZmJmMjE3MjlkMDQxMzExYTJmNDRmZmZjMzkyM2IxM2YyOTQ1Nzc2OTkwOWZlMzZmYTYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: bw join
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      location:
+        bodyYaw: -13.07991
+        world: world
+        x: '242.5'
+        y: '55.5'
+        z: '1335.5'
+        yaw: '-13.0799'
+        pitch: '17.5085'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      rotationtrait:
+        globalParameters: {}
+    traitnames: mounttrait,spawned,lookclose,rotationtrait,age,skintrait,type,inventory,scoreboardtrait,owner,commandtrait,location
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

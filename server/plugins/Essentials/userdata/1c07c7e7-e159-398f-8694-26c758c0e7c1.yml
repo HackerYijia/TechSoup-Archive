@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1684171873798
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684171977762
+  login: 1684170063633
+  kits:
+    color: 1684168897024
+money: '2526160.0'
+last-account-name: vop11
+lastlocation:
+  world: 401fd23e-0213-45c3-87a4-b93bb2f8c56e
+  world-name: KitPVP-Plain
+  x: -2.2224402545050115
+  y: 9.0
+  z: -2.557624601671082
+  yaw: 42.94725036621094
+  pitch: 5.848072052001953
+logoutlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 237.5
+  y: 53.0
+  z: 1354.5
+  yaw: 314.734375
+  pitch: 55.15625

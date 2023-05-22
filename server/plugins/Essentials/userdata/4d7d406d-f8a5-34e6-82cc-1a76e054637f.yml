@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1684627735803
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684760304687
+  login: 1684760294889
+  kits:
+    notch: 1684167621515
+money: '20.0'
+last-account-name: NX_YT
+lastlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 242.37216841693373
+  y: 54.0
+  z: 1348.5398981922651
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 243.14462968916908
+  y: 55.166109260938214
+  z: 1348.4695928865
+  yaw: 257.1968994140625
+  pitch: 65.8499984741211

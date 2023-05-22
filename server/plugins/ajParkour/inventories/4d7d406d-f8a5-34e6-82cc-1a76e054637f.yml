@@ -1,0 +1,83 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    type: TORCH
+    amount: 2
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS
+    damage: 3
+    amount: 45
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: LEASH
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS_PANE
+    damage: 6
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_TRAPDOOR
+  - ==: org.bukkit.inventory.ItemStack
+    type: WORKBENCH
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_TRAPDOOR
+    amount: 64
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    damage: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS
+    damage: 4
+    amount: 56
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS
+    damage: 6
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS_PANE
+    damage: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: STAINED_GLASS_PANE
+    damage: 11
+  - null

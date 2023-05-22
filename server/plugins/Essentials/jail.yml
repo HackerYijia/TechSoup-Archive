@@ -1,0 +1,17 @@
+jails:
+  '4':
+    world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+    world-name: world
+    x: 241.95580506909943
+    y: 48.0
+    z: 1337.699999988079
+    yaw: -0.0625
+    pitch: 90.0
+  '2':
+    world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+    world-name: world
+    x: 229.6950783799461
+    y: 59.0
+    z: 1349.6405444388884
+    yaw: -90.60000610351562
+    pitch: 90.0

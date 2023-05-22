@@ -1,0 +1,18 @@
+#############################
+# LagEssentials Config File #
+#############################
+
+# Under clearlag section is settings for what to clear when you are attempting to
+# speed up the server by clearing lag.
+
+# Under automation section is setting for turning it on or off and for the when
+# field, you put how low the TPS can get before lag is cleared.
+
+settings:
+  clearlag:
+    items: true
+    xp: true
+    mobs: true
+  automation:
+    enabled: true
+    when: 12

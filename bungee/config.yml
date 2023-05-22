@@ -1,0 +1,78 @@
+enforce_secure_profile: false
+listeners:
+- query_port: 25577
+  motd: '&1Another Bungee server'
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 127.0.0.1:25577
+  max_players: 1
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 99000
+timeout: 99000
+player_limit: -1
+prevent_proxy_connections: false
+ip_forward: true
+groups: {}
+remote_ping_timeout: 5000000
+connection_throttle: 40000
+log_commands: false
+stats: 962f574d-6f3f-40f8-9b2a-2c0467a28290
+online_mode: false
+forge_support: true
+disabled_commands:
+- antioch
+servers:
+  lobby:
+    motd: Lobby
+    address: mars.cxmpute.com:10316
+    restricted: false
+  surivival:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: mars.cxmpute.com:10139
+    restricted: false
+  old:
+    motd: '&1Just another Waterfall - Forced Host'
+    address: localhost:25565
+    restricted: false
+  network:
+    motd: '&1Random Stuff'
+    address: sky-network.eu
+    restricted: false
+  pvp:
+    motd: ImmortalCraft PVP
+    address: mars.cxmpute.com:10158
+    restricted: false
+  zentic:
+    motd: Zentic
+    address: zentic.cc
+    restricted: false
+  pvp2:
+    motd: PVP
+    address: mars.cxmpute.com:10318
+    restricted: false
+  latest1:
+    motd: PVP
+    address: mars.cxmpute.com:10319
+    restricted: false

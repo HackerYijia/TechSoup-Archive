@@ -1,0 +1,1383 @@
+[20:23:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[20:23:06] [Server thread/INFO]: Loading properties
+[20:23:06] [Server thread/INFO]: Default game type: SURVIVAL
+[20:23:06] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[20:23:06] [Server thread/INFO]: Debug logging is disabled
+[20:23:06] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[20:23:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:23:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:23:06] [Server thread/INFO]: Data value allowed items: 
+[20:23:06] [Server thread/INFO]: Generating keypair
+[20:23:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:23:07] [Server thread/INFO]: Using epoll channel type
+[20:23:07] [Server thread/ERROR]: Ambiguous plugin name `Multiverse-Core' for files `plugins/Multiverse-Core-2.5 (1).jar' and `plugins/Multiverse-Core-2.5.jar' in `plugins'
+[20:23:07] [Server thread/ERROR]: Ambiguous plugin name `WorldGuard' for files `plugins/worldguard-6.1.jar' and `plugins/worldguard-6.2.jar' in `plugins'
+[20:23:07] [Server thread/ERROR]: Ambiguous plugin name `Essentials' for files `plugins/EssentialsX-2.20.0-dev+44-43d84de.jar' and `plugins/EssentialsX-2.20.0-dev+45-bf14b88.jar' in `plugins'
+[20:23:07] [Server thread/ERROR]: Ambiguous plugin name `Citizens' for files `plugins/Citizens-2.0.30-b2858.jar' and `plugins/Citizens-2.0.31-b2992.jar' in `plugins'
+[20:23:07] [Server thread/ERROR]: Could not load 'plugins/Eden-1.1.10-BETA-805a40d-all.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: FastAsyncWorldEdit
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:07] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[20:23:07] [Server thread/ERROR]: Could not load 'plugins/AnimatedFrames_v4.13.5-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/inventivetalent/animatedframes/AnimatedFramesPlugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.UnsupportedClassVersionError: org/inventivetalent/animatedframes/AnimatedFramesPlugin has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_322]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363) ~[?:1.8.0_322]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[20:23:08] [Server thread/ERROR]: Could not load 'plugins/BiblePlugin-1.2.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/thevipershow/bibleplugin/BiblePlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.UnsupportedClassVersionError: me/thevipershow/bibleplugin/BiblePlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_322]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363) ~[?:1.8.0_322]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[20:23:08] [Server thread/ERROR]: Could not load 'plugins/MobDisguise.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/minecraft/server/Packet
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/server/Packet
+	at me.desmin88.mobdisguise.MobDisguise.<clinit>(MobDisguise.java:37) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.Packet
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at me.desmin88.mobdisguise.MobDisguise.<clinit>(MobDisguise.java:37) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[20:23:08] [Server thread/ERROR]: Could not load 'plugins/Lifesteal.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/bukkit/inventory/RecipeChoice
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.NoClassDefFoundError: org/bukkit/inventory/RecipeChoice
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.bukkit.inventory.RecipeChoice
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[20:23:08] [Server thread/ERROR]: Could not load 'plugins/custombansplus-3.4.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/coralise/CustomBansPlus has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.UnsupportedClassVersionError: me/coralise/CustomBansPlus has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756) ~[?:1.8.0_322]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:473) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:74) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:369) ~[?:1.8.0_322]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:363) ~[?:1.8.0_322]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_322]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:362) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 6 more
+[20:23:08] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[20:23:08] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[20:23:08] [Server thread/INFO]: [AutoHub] Loading AutoHub v1.2.2
+[20:23:08] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0
+[20:23:08] [Server thread/INFO]: [FileDownloader] Loading FileDownloader v1.0
+[20:23:08] [Server thread/INFO]: [EndCrystalSpawner] Loading EndCrystalSpawner v1.0
+[20:23:08] [Server thread/INFO]: [CustomEnchants] Loading CustomEnchants v1.8
+[20:23:08] [Server thread/INFO]: [Reloader] Loading Reloader v3.5.0
+[20:23:08] [Server thread/INFO]: [NoteBlockAPI] Loading NoteBlockAPI v1.6.2-SNAPSHOT
+[20:23:08] [Server thread/INFO]: [WatchdogBan] Loading WatchdogBan v1.1.0
+[20:23:08] [Server thread/INFO]: [Tablist] Loading Tablist v1.2.3.7
+[20:23:08] [Server thread/INFO]: [PluginHider] Loading PluginHider v1.0
+[20:23:08] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[20:23:08] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.4.7
+[20:23:08] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.8.3
+[20:23:08] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[20:23:08] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
+[20:23:08] [Server thread/INFO]: [ReduceLag] Loading ReduceLag v1.1
+[20:23:08] [Server thread/INFO]: [LoneLibs] Loading LoneLibs v1.0.24
+[20:23:08] [Server thread/INFO]: [LobbyPresents] Loading LobbyPresents v4.3
+[20:23:08] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[20:23:08] [Server thread/INFO]: [Clans] Loading Clans v2.1
+[20:23:08] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[20:23:09] [Server thread/INFO]: [LibsDisguises] Loading LibsDisguises v8.6.8
+[20:23:09] [Server thread/INFO]: [iDisguise] Loading iDisguise v5.8.2
+[20:23:09] [Server thread/INFO]: [HubThat] Loading HubThat v10.1.184
+[20:23:09] [Server thread/INFO]: [VoidGenerator] Loading VoidGenerator v1.0
+[20:23:09] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[20:23:09] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[20:23:09] [Server thread/INFO]: [TB] Loading Tadukoo_Bible v1.1 BETA 1
+[20:23:09] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib v1.6.2
+[20:23:09] [Server thread/INFO]: [AutoSave] Loading AutoSave v1.0
+[20:23:09] [Server thread/INFO]: [Vault] Loading Vault v1.5.0-b28
+[20:23:09] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.23.dev
+[20:23:09] [Server thread/INFO]: [ProtocolSupport] Allocator: PooledByteBufAllocator(directByDefault: true), direct: true
+[20:23:09] [Server thread/INFO]: [ProtocolSupport] Compression level: 3
+[20:23:10] [Server thread/INFO]: [ProtocolSupport] Assume 1.5.2 ping delay: 100
+[20:23:10] [Server thread/INFO]: [ProtocolSupport] Assume legacy ping dealy: 200
+[20:23:10] [Server thread/INFO]: [ProtocolSupport] Login threads max count: 8, keep alive time: 60
+[20:23:10] [Server thread/WARN]: [ProtocolSupport] Native transport is enabled, this may causes issues. Disable it by setting use-native-transport in server.properties to false.
+[20:23:10] [Server thread/INFO]: [ProtocolSupport] Using injected ServerConnection
+[20:23:10] [Server thread/INFO]: [SimpleSit] Loading SimpleSit v1.7
+[20:23:10] [Server thread/INFO]: [LagEssentials] Loading LagEssentials v1.0
+[20:23:10] [Server thread/INFO]: [PerWorldInventory] Loading PerWorldInventory v2.3.2
+[20:23:10] [Server thread/INFO]: [RealScoreboard] Loading RealScoreboard v1.8
+[20:23:10] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1
+[20:23:10] [Server thread/INFO]: [ajParkour] Loading ajParkour v2.12.10
+[20:23:10] [Server thread/INFO]: [AuctionHouse] Loading AuctionHouse v2.2.4
+[20:23:10] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
+[20:23:10] [Server thread/ERROR]: Custom flags aren't supported in this version of WorldGuard! initializing SimpleScore v3.12.2 (Is it up to date?)
+java.lang.UnsupportedOperationException: Custom flags aren't supported in this version of WorldGuard!
+	at com.r4g3baby.simplescore.lib.wgwrapper.implementation.legacy.WorldGuardImplementation.registerFlag(WorldGuardImplementation.java:202) ~[?:?]
+	at com.r4g3baby.simplescore.lib.wgwrapper.WorldGuardWrapper.registerFlag(WorldGuardWrapper.java:25) ~[?:?]
+	at com.r4g3baby.simplescore.scoreboard.worldguard.WorldGuardAPI.init$SimpleScore(WorldGuardAPI.kt:19) ~[?:?]
+	at com.r4g3baby.simplescore.SimpleScore.onLoad(SimpleScore.kt:17) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:298) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:10] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0-dev+44-43d84de
+[20:23:10] [Server thread/INFO]: [AdvancedReplay] Loading AdvancedReplay v1.8.2
+[20:23:10] [Server thread/INFO]: [TrollV4] Loading TrollV4 v4.5.11
+[20:23:10] [Server thread/INFO]: [CommandPanels] Loading CommandPanels v3.18.6.2
+[20:23:10] [Server thread/INFO]: [Oneblock] Loading Oneblock v1.1.1
+[20:23:10] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5-b699
+[20:23:10] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.30-SNAPSHOT (build 2858)
+[20:23:10] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v2.2.4
+[20:23:10] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0-dev+51-c52c1fe
+[20:23:10] [Server thread/INFO]: [PaintballBattle] Loading PaintballBattle v1.8.1
+[20:23:10] [Server thread/INFO]: [KitPvP] Loading KitPvP v2.2.1
+[20:23:10] [Server thread/INFO]: [Animotion] Loading Animotion v1.0_i_patch3
+[20:23:10] [Server thread/INFO]: [TabList] Loading TabList v5.6.8
+[20:23:10] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[20:23:10] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.20.0-dev+51-c52c1fe
+[20:23:10] [Server thread/INFO]: [FakePlayersOnline] Loading FakePlayersOnline v0.1.8
+[20:23:10] [Server thread/INFO]: [Server Tutorial Plus] Loading ServerTutorialPlus v1.24.5
+[20:23:10] [Server thread/INFO]: [BedWars] Loading BedWars v0.2.27.1
+[20:23:10] [Server thread/INFO]: [Sentinel] Loading Sentinel v2.7.2-SNAPSHOT (build 502)
+[20:23:10] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.24
+[20:23:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[20:23:10] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[20:23:10] [Server thread/INFO]: [VoidGenerator] Enabling VoidGenerator v1.0
+[20:23:10] [Server thread/INFO]: VoidGenerator has been enabled!
+[20:23:10] [Server thread/INFO]: [Vault] Enabling Vault v1.5.0-b28
+[20:23:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:23:10] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[20:23:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:23:10] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[20:23:10] [Server thread/INFO]: [Vault] Enabled Version 1.5.0-b28
+[20:23:10] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.23.dev
+[20:23:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:23:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:23:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:23:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:23:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[20:23:10] [Server thread/INFO]: Preparing level "world"
+[20:23:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:23:10] [Server thread/INFO]: Mob Spawn Range: 4
+[20:23:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:23:10] [Server thread/INFO]: Anti X-Ray: true
+[20:23:10] [Server thread/INFO]: 	Engine Mode: 1
+[20:23:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:23:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:23:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:23:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:23:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:23:10] [Server thread/INFO]: Random Lighting Updates: false
+[20:23:10] [Server thread/INFO]: Structure Info Saving: true
+[20:23:10] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:23:10] [Server thread/INFO]: Max Entity Collisions: 8
+[20:23:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:23:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:23:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:23:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:23:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:23:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:23:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:23:10] [Server thread/INFO]: View Distance: 10
+[20:23:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:23:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:23:10] [Server thread/INFO]: Clear tick list: false
+[20:23:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:23:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[20:23:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:23:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:23:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:23:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:23:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:23:10] [Server thread/INFO]: Water over lava flow speed: 5
+[20:23:10] [Server thread/INFO]: Fix TNT cannons: false
+[20:23:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:23:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:23:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:23:10] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:23:10] [Server thread/INFO]: World async lighting: false
+[20:23:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:23:10] [Server thread/INFO]: Mob Spawn Range: 4
+[20:23:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:23:10] [Server thread/INFO]: Anti X-Ray: true
+[20:23:10] [Server thread/INFO]: 	Engine Mode: 1
+[20:23:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:23:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:23:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:23:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:23:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:23:10] [Server thread/INFO]: Random Lighting Updates: false
+[20:23:10] [Server thread/INFO]: Structure Info Saving: true
+[20:23:10] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:23:10] [Server thread/INFO]: Max Entity Collisions: 8
+[20:23:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:23:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:23:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:23:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:23:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:23:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:23:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:23:10] [Server thread/INFO]: View Distance: 10
+[20:23:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:23:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:23:10] [Server thread/INFO]: Clear tick list: false
+[20:23:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:23:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[20:23:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:23:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:23:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:23:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:23:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:23:10] [Server thread/INFO]: Water over lava flow speed: 5
+[20:23:10] [Server thread/INFO]: Fix TNT cannons: false
+[20:23:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:23:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:23:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:23:10] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:23:10] [Server thread/INFO]: World async lighting: false
+[20:23:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:23:10] [Server thread/INFO]: Mob Spawn Range: 4
+[20:23:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:23:10] [Server thread/INFO]: Anti X-Ray: true
+[20:23:10] [Server thread/INFO]: 	Engine Mode: 1
+[20:23:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:23:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:23:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:23:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:23:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:23:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:23:10] [Server thread/INFO]: Random Lighting Updates: false
+[20:23:10] [Server thread/INFO]: Structure Info Saving: true
+[20:23:10] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:23:10] [Server thread/INFO]: Max Entity Collisions: 8
+[20:23:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:23:10] [Server thread/INFO]: Max TNT Explosions: 100
+[20:23:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:23:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:23:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:23:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:23:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:23:10] [Server thread/INFO]: View Distance: 10
+[20:23:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:23:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:23:10] [Server thread/INFO]: Clear tick list: false
+[20:23:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:23:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[20:23:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:23:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:23:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:23:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:23:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:23:10] [Server thread/INFO]: Water over lava flow speed: 5
+[20:23:10] [Server thread/INFO]: Fix TNT cannons: false
+[20:23:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:23:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:23:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:23:10] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:23:10] [Server thread/INFO]: World async lighting: false
+[20:23:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4216530450634206070)
+[20:23:11] [Server thread/INFO]: Preparing spawn area: 30%
+[20:23:12] [Server thread/INFO]: Preparing spawn area: 57%
+[20:23:13] [Server thread/INFO]: Preparing start region for level 1 (Seed: -168989097372411146)
+[20:23:14] [Server thread/INFO]: Preparing spawn area: 63%
+[20:23:14] [Server thread/INFO]: Preparing start region for level 2 (Seed: -168989097372411146)
+[20:23:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[20:23:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:23:14] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[20:23:14] [Server thread/INFO]: [AutoHub] Enabling AutoHub v1.2.2
+[20:23:14] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0
+[20:23:14] [Server thread/INFO]: [FileDownloader] Enabling FileDownloader v1.0
+[20:23:14] [Server thread/ERROR]: Error occurred while enabling FileDownloader v1.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: org/bukkit/NamespacedKey
+	at dev.lone.FileDownloader.Main.onEnable(SourceFile:38) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.ClassNotFoundException: org.bukkit.NamespacedKey
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	... 12 more
+[20:23:14] [Server thread/INFO]: [FileDownloader] Disabling FileDownloader v1.0
+[20:23:14] [Server thread/INFO]: [EndCrystalSpawner] Enabling EndCrystalSpawner v1.0
+[20:23:14] [Server thread/INFO]: [ECS] Plugin loading...
+[20:23:14] [Server thread/INFO]: [ECS] Plugin loaded.
+[20:23:14] [Server thread/INFO]: [CustomEnchants] Enabling CustomEnchants v1.8
+[20:23:15] [Server thread/INFO]: [Reloader] Enabling Reloader v3.5.0
+[20:23:15] [Server thread/INFO]: [Reloader] Passing Reloader command to command handler
+[20:23:15] [Server thread/INFO]: [Reloader] Passing Plugin command to command listener
+[20:23:15] [Server thread/INFO]: [NoteBlockAPI] Enabling NoteBlockAPI v1.6.2-SNAPSHOT
+[20:23:15] [Server thread/INFO]: [WatchdogBan] Enabling WatchdogBan v1.1.0
+[20:23:15] [Server thread/INFO]: [Tablist] Enabling Tablist v1.2.3.7
+[20:23:15] [Server thread/INFO]: Tablist> Tablist v1.2.3.7 enabled!!
+[20:23:15] [Server thread/INFO]: [PluginHider] Enabling PluginHider v1.0
+[20:23:15] [Server thread/INFO]: [PluginHider++] Is Enabled!
+[20:23:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[20:23:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:23:15] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[20:23:15] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.4.7
+[20:23:16] [Server thread/INFO]: [AdminFun] ============================================
+[20:23:16] [Server thread/INFO]: [AdminFun]                  AdminFun              
+[20:23:16] [Server thread/INFO]: [AdminFun] ============================================
+[20:23:16] [Server thread/INFO]: [AdminFun] A new version is available: AdminFun v2.5.0
+[20:23:16] [Server thread/INFO]: [AdminFun] Your current version: AdminFun v2.4.7
+[20:23:16] [Server thread/INFO]: [AdminFun] Download it from: https://files.forgecdn.net/files/935/180/AdminFun.jar
+[20:23:16] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.8.3
+[20:23:16] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:23:16] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[20:23:16] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:23:16] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:23:16] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:23:16] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:23:16] [Thread-10/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.8]...
+[20:23:16] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
+[20:23:16] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[20:23:16] [Thread-10/INFO]: [ClearLag] No updates found!
+[20:23:16] [Server thread/INFO]: [ReduceLag] Enabling ReduceLag v1.1
+[20:23:16] [Server thread/INFO]: [ReduceLag] Is now activated on world world
+[20:23:16] [Server thread/INFO]: [LobbyPresents] Enabling LobbyPresents v4.3
+[20:23:16] [Server thread/INFO]: 
+    _\/_
+     /\
+     /\
+    /  \
+    /~~\o
+   /o   \
+  /~~*~~~\
+ o/    o \
+ /~~~~~~~~\~`
+/__*_______\
+     ||
+   \====/  [*]
+    \__/ [*] [*]  LobbyPresents 4.3
+[20:23:16] [Server thread/INFO]:  Loaded: file.yml
+[20:23:16] [Server thread/INFO]:  Loaded: Config!
+[20:23:16] [Server thread/INFO]:  Loaded 0 completed!
+[20:23:16] [Server thread/INFO]:  Loaded heads-gui 85 completed!
+[20:23:16] [Server thread/INFO]:  Rewards type: sequence
+[20:23:16] [Server thread/INFO]:  Version: The latest version (4.3)
+[20:23:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: lobbypresents [1.0]
+[20:23:16] [Server thread/INFO]:  Hooked placeholderAPI
+[20:23:16] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[20:23:16] [Server thread/INFO]: 
+    __                      ____                                         _    _____
+   / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+  / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+ / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+/_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+            /____//____/
+
+[20:23:16] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[20:23:16] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[20:23:16] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[20:23:16] [Server thread/INFO]: [Clans] Enabling Clans v2.1
+[20:23:17] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v8.6.8
+[20:23:18] [Server thread/INFO]: [iDisguise] Enabling iDisguise v5.8.2
+[20:23:18] [Server thread/INFO]: [iDisguise] iDisguise 5.8.2 enabled!
+[20:23:18] [Server thread/INFO]: [HubThat] Enabling HubThat v10.1.184
+[20:23:18] [Server thread/WARN]: [HubThat] HubThat: Checking if config exists...
+[20:23:18] [Server thread/WARN]: [HubThat] Loading config...
+[20:23:18] [Server thread/INFO]: [HubThat] All files are working correctly.
+[20:23:18] [Server thread/INFO]: [HubThat] Plugin HubThat Successfully Loaded!
+[20:23:18] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[20:23:18] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[20:23:18] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[20:23:18] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[20:23:18] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[20:23:18] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[20:23:18] [Server thread/INFO]: [TB] Enabling Tadukoo_Bible v1.1 BETA 1
+[20:23:18] [Thread-11/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[20:23:18] [Server thread/WARN]: [TB] Genesis Book 1 does not exist. Setting to 1.
+[20:23:19] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib v1.6.2
+[20:23:19] [Server thread/INFO]: [AutoSave] Enabling AutoSave v1.0
+[20:23:19] [Server thread/INFO]: [AutoSave] Enable
+[20:23:19] [Server thread/INFO]: [SimpleSit] Enabling SimpleSit v1.7
+[20:23:19] [Server thread/WARN]: [SimpleSit] Using legacy armor stand align, for mc versions 1.12 and below.
+[20:23:19] [Server thread/INFO]: [LagEssentials] Enabling LagEssentials v1.0
+[20:23:19] [Server thread/INFO]: [LagEssentials] LagEssentials v1.0 has been enabled on your server.
+[20:23:19] [Server thread/INFO]: [PerWorldInventory] Enabling PerWorldInventory v2.3.2
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v1.8
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Checking the Server version.
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Your server is running version: v1_8_R3
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Your server is compatible with RealScoreboard.
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Starting up the Configuration.
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Registering Events.
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Registering Commands.
+[20:23:19] [Server thread/INFO]: [RealScoreboard] Starting up the Scoreboard.
+[20:23:19] [Server thread/INFO]: ----------------------------------
+[20:23:19] [Server thread/INFO]: 
+[20:23:19] [Server thread/INFO]: RealScoreboard
+[20:23:19] [Server thread/INFO]: Version: 1.8
+[20:23:19] [Server thread/INFO]: 
+[20:23:19] [Server thread/INFO]: Setup successfully completed.
+[20:23:19] [Server thread/INFO]: 
+[20:23:19] [Server thread/INFO]: Server version: v1_8_R3
+[20:23:19] [Server thread/INFO]: Vault: OK
+[20:23:19] [Server thread/INFO]: Configuration: OK
+[20:23:19] [Server thread/INFO]: Events: OK
+[20:23:19] [Server thread/INFO]: Commands: OK
+[20:23:19] [Server thread/INFO]: Scoreboard: OK
+[20:23:19] [Server thread/INFO]: 
+[20:23:19] [Server thread/INFO]: ----------------------------------
+[20:23:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[20:23:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:23:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:23:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:23:20] [Server thread/INFO]: [ajParkour] Enabling ajParkour v2.12.10
+[20:23:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ajpk [2.12.10]
+[20:23:20] [Server thread/INFO]: ajParkour v2.12.10 by ajgeiss0702 has been enabled!
+[20:23:20] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v2.2.4
+[20:23:20] [Server thread/INFO]: [AuctionHouse] Found locale file en_us.json
+[20:23:20] [Server thread/WARN]: [AuctionHouse] [1;33mA backup of the database has been saved with .backup extension.[0m
+[20:23:20] [Server thread/INFO]: [AuctionHouse] Using NMS version v1_8_R3
+[20:23:20] [Server thread/INFO]: [AuctionHouse] Using en_us locale
+[20:23:20] [Server thread/INFO]: [AuctionHouse] Loaded 0 listings
+[20:23:20] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
+[20:23:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.2]
+[20:23:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0-dev+44-43d84de
+[20:23:20] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[20:23:20] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
+[20:23:20] [Server thread/WARN]: §4Version mismatch! Please update EssentialsSpawn to the same version.
+[20:23:21] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[20:23:21] [Server thread/INFO]: No kits found to migrate.
+[20:23:22] [Server thread/INFO]: Loaded 853 items from items.csv.
+[20:23:22] [Server thread/INFO]: Using locale en_US
+[20:23:22] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[20:23:22] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[20:23:22] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[20:23:22] [Server thread/INFO]: Using Vault based permissions (PermissionsEx)
+[20:23:22] [Server thread/INFO]: [AdvancedReplay] Enabling AdvancedReplay v1.8.2
+[20:23:22] [Server thread/INFO]: [AdvancedReplay] Loading Replay v1.8.2 by Jumper251
+[20:23:22] [Server thread/INFO]: [AdvancedReplay] Finished (43ms)
+[20:23:22] [Server thread/INFO]: [TrollV4] Enabling TrollV4 v4.5.11
+[20:23:23] [Server thread/INFO]: [TrollV4] -----------------------------------
+[20:23:23] [Server thread/INFO]: [TrollV4] TrollV4.5.11 by Presti
+[20:23:23] [Server thread/INFO]: [TrollV4] In case of errors please report:
+[20:23:23] [Server thread/INFO]: [TrollV4] Email: presti@presti.me
+[20:23:23] [Server thread/INFO]: [TrollV4] YouTube: Not Memerinoto
+[20:23:23] [Server thread/INFO]: [TrollV4] Otherwise have fun!
+[20:23:23] [Server thread/INFO]: [TrollV4] ------------------------------------
+[20:23:23] [Server thread/INFO]: [TrollV4] Plugin Version: 4.5.11
+[20:23:23] [Server thread/INFO]: [TrollV4] Server Version: v1_8_R3 - 1.8.8
+[20:23:23] [Server thread/INFO]: [TrollV4] Server Software: SPIGOT
+[20:23:23] [Server thread/INFO]: [TrollV4] Community Surprise is disabled!
+[20:23:23] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.18.6.2
+[20:23:23] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.18.6.2 Plugin Loading...
+[20:23:23] [Server thread/ERROR]: [CommandPanels] Plugin CommandPanels v3.18.6.2 has failed to register events for class me.rockyhawk.commandpanels.playerinventoryhandler.InventorySaver because org/bukkit/event/entity/EntityPickupItemEvent does not exist.
+[20:23:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: commandpanels [1.0.0]
+[20:23:23] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.18.6.2 Plugin Loaded!
+[20:23:23] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.1.1
+[20:23:23] [Server thread/INFO]: [Oneblock] 
+┏━┓····┏━━┓·····┏┓
+┃┃┣━┳┳━┫┏┓┣┓┏━┳━┫┣┓
+┃┃┃┃┃┃┻┫┏┓┃┗┫╋┃━┫━┫
+┗━┻┻━┻━┻━━┻━┻━┻━┻┻┛ by MrMarL
+[20:23:23] [Server thread/INFO]: [Oneblock] PlaceholderAPI has been found!
+[20:23:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: OB [1.0.6]
+[20:23:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5-b699
+[20:23:24] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[20:23:24] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[20:23:24] [Server thread/INFO]: -------- World Settings For [Chained] --------
+[20:23:24] [Server thread/INFO]: Mob Spawn Range: 4
+[20:23:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:23:24] [Server thread/INFO]: Anti X-Ray: true
+[20:23:24] [Server thread/INFO]: 	Engine Mode: 1
+[20:23:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:23:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:23:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:23:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:23:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:23:24] [Server thread/INFO]: Random Lighting Updates: false
+[20:23:24] [Server thread/INFO]: Structure Info Saving: true
+[20:23:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:23:24] [Server thread/INFO]: Max Entity Collisions: 8
+[20:23:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:23:24] [Server thread/INFO]: Max TNT Explosions: 100
+[20:23:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:23:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:23:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:23:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:23:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:23:24] [Server thread/INFO]: View Distance: 10
+[20:23:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:23:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:23:24] [Server thread/INFO]: Clear tick list: false
+[20:23:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:23:24] [Server thread/INFO]: -------- World Settings For [Chained] --------
+[20:23:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:23:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:23:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:23:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:23:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:23:24] [Server thread/INFO]: Water over lava flow speed: 5
+[20:23:24] [Server thread/INFO]: Fix TNT cannons: false
+[20:23:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:23:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:23:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:23:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:23:24] [Server thread/INFO]: World async lighting: false
+[20:23:24] [Server thread/INFO]: Preparing start region for level 3 (Seed: 0)
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Chained) TNT ignition is PERMITTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Chained) Lighters are PERMITTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Chained) Lava fire is blocked.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Chained) Fire spread is UNRESTRICTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Chained'
+[20:23:24] [Server thread/INFO]: -------- World Settings For [Paintball] --------
+[20:23:24] [Server thread/INFO]: Mob Spawn Range: 4
+[20:23:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:23:24] [Server thread/INFO]: Anti X-Ray: true
+[20:23:24] [Server thread/INFO]: 	Engine Mode: 1
+[20:23:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:23:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:23:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:23:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:23:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:23:24] [Server thread/INFO]: Random Lighting Updates: false
+[20:23:24] [Server thread/INFO]: Structure Info Saving: true
+[20:23:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:23:24] [Server thread/INFO]: Max Entity Collisions: 8
+[20:23:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:23:24] [Server thread/INFO]: Max TNT Explosions: 100
+[20:23:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:23:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:23:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:23:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:23:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:23:24] [Server thread/INFO]: View Distance: 10
+[20:23:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:23:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:23:24] [Server thread/INFO]: Clear tick list: false
+[20:23:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:23:24] [Server thread/INFO]: -------- World Settings For [Paintball] --------
+[20:23:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:23:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:23:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:23:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:23:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:23:24] [Server thread/INFO]: Water over lava flow speed: 5
+[20:23:24] [Server thread/INFO]: Fix TNT cannons: false
+[20:23:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:23:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:23:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:23:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:23:24] [Server thread/INFO]: World async lighting: false
+[20:23:24] [Server thread/INFO]: Preparing start region for level 4 (Seed: -959798431097158965)
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Paintball) TNT ignition is PERMITTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Paintball) Lighters are PERMITTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Paintball) Lava fire is blocked.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (Paintball) Fire spread is UNRESTRICTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Paintball'
+[20:23:24] [Server thread/WARN]: java.lang.NullPointerException
+[20:23:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.WorldServer.<init>(WorldServer.java:58)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.createWorld(CraftServer.java:916)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:485)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:261)
+[20:23:24] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:421)
+[20:23:24] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:402)
+[20:23:24] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.doLoad(WorldManager.java:377)
+[20:23:24] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.utils.WorldManager.loadWorlds(WorldManager.java:676)
+[20:23:24] [Server thread/WARN]: 	at com.onarandombox.MultiverseCore.MultiverseCore.onEnable(MultiverseCore.java:310)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)
+[20:23:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)
+[20:23:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)
+[20:23:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)
+[20:23:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+[20:23:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+[20:23:24] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[20:23:24] [Server thread/WARN]: 	at java.lang.Thread.run(Thread.java:750)
+[20:23:24] [Server thread/ERROR]: [Multiverse-Core] The world 'KitPVP' could NOT be loaded because it contains errors and is probably corrupt!
+[20:23:24] [Server thread/ERROR]: [Multiverse-Core] Try using Minecraft Region Fixer to repair your world! 'KitPVP'
+[20:23:24] [Server thread/ERROR]: [Multiverse-Core] https://github.com/Fenixin/Minecraft-Region-Fixer
+[20:23:24] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world1
+[20:23:24] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[20:23:24] [Server thread/INFO]: -------- World Settings For [KitPVP-Plain] --------
+[20:23:24] [Server thread/INFO]: Mob Spawn Range: 4
+[20:23:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[20:23:24] [Server thread/INFO]: Anti X-Ray: true
+[20:23:24] [Server thread/INFO]: 	Engine Mode: 1
+[20:23:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[20:23:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[20:23:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[20:23:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[20:23:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[20:23:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[20:23:24] [Server thread/INFO]: Random Lighting Updates: false
+[20:23:24] [Server thread/INFO]: Structure Info Saving: true
+[20:23:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[20:23:24] [Server thread/INFO]: Max Entity Collisions: 8
+[20:23:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[20:23:24] [Server thread/INFO]: Max TNT Explosions: 100
+[20:23:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[20:23:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[20:23:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[20:23:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[20:23:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[20:23:24] [Server thread/INFO]: View Distance: 10
+[20:23:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[20:23:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[20:23:24] [Server thread/INFO]: Clear tick list: false
+[20:23:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[20:23:24] [Server thread/INFO]: -------- World Settings For [KitPVP-Plain] --------
+[20:23:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[20:23:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[20:23:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[20:23:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[20:23:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[20:23:24] [Server thread/INFO]: Water over lava flow speed: 5
+[20:23:24] [Server thread/INFO]: Fix TNT cannons: false
+[20:23:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[20:23:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[20:23:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[20:23:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[20:23:24] [Server thread/INFO]: World async lighting: false
+[20:23:24] [Server thread/INFO]: Preparing start region for level 5 (Seed: 7102052293706257291)
+[20:23:24] [Server thread/INFO]: [WorldGuard] (KitPVP-Plain) TNT ignition is PERMITTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (KitPVP-Plain) Lighters are PERMITTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (KitPVP-Plain) Lava fire is blocked.
+[20:23:24] [Server thread/INFO]: [WorldGuard] (KitPVP-Plain) Fire spread is UNRESTRICTED.
+[20:23:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'KitPVP-Plain'
+[20:23:24] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[20:23:24] [Server thread/INFO]: [Multiverse-Core] Version 2.5-b699 (API v19) Enabled - By Rigby, fernferret, lithium3141 and main--
+[20:23:24] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2858)
+[20:23:24] [Server thread/INFO]: [Citizens] Loading external libraries
+[20:23:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[20:23:25] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[20:23:25] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.2.4
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': POLAR_BEAR
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': STRAY
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': WITHER_SKELETON
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ZOMBIE_VILLAGER
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': HUSK
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': EVOKER
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': VEX
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': VINDICATOR
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': ILLUSIONER
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: Invalid living entity type name in 'enabled-living-shops': PARROT
+[20:23:25] [Server thread/WARN]: [Shopkeepers] Config: All existing entity type names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+[20:23:25] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0-dev+51-c52c1fe
+[20:23:25] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[20:23:25] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[20:23:25] [Server thread/INFO]: [PaintballBattle] Enabling PaintballBattle v1.8.1
+[20:23:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: paintball [1.8.1]
+[20:23:26] [Server thread/INFO]: [Paintball Battle] Has been enabled! Version: 1.8.1
+[20:23:26] [Server thread/INFO]: [Paintball Battle] Thanks for using my plugin!  ~Ajneb97
+[20:23:26] [Server thread/INFO]: [KitPvP] Enabling KitPvP v2.2.1
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Enabling KitPvP version 2.2.1...
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Loading configuration files...
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Loading kit files...
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Establishing database connection...
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Hooking into PlaceholderAPI...
+[20:23:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: kitpvp [1.0.0]
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Hooking into WorldGuard...
+[20:23:26] [Server thread/INFO]: [KIT-PVP] Done!
+[20:23:26] [Server thread/INFO]: [Animotion] Enabling Animotion v1.0_i_patch3
+[20:23:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: animotion [1a]
+[20:23:26] [Server thread/INFO]: Animotion PlaceholderAPI expansion has been enabled.
+[20:23:26] [Server thread/INFO]: Animotion WorldGuard extension has been enabled.
+[20:23:26] [Server thread/INFO]: Animotion Animotion is ready to use !
+[20:23:27] [Server thread/INFO]: Animotion You're running on last version.
+[20:23:27] [Server thread/INFO]: [TabList] Enabling TabList v5.6.8
+[20:23:27] [Server thread/WARN]: [TabList] You're currently having 2 CPU processors, which is not enough to run a minecraft server with scheduled plugins including TabList.
+[20:23:27] [Server thread/WARN]: [TabList] You will be experiencing many lags during the server is running. Consider upgrading your CPU to at least reach 3 cores.
+[20:23:27] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.11.3
+[20:23:27] [Server thread/INFO]: [TabList] > Enabled v5.6.8 (87ms)
+[20:23:27] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[20:23:27] [Server thread/INFO]: [CommandNPC] Vault compatible economy found! Economy support for CommandNPC has been enabled.
+[20:23:27] [Server thread/INFO]: [CommandNPC] Initiating Database
+[20:23:27] [Server thread/INFO]: [CommandNPC] Injecting command info into Citizens.
+[20:23:27] [Thread-15/INFO]: [CommandNPC] Loading commands complete!
+[20:23:27] [Server thread/INFO]: [CommandNPC] CommandNPC successfully loaded!
+[20:23:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0-dev+51-c52c1fe
+[20:23:27] [Server thread/WARN]: §4Version mismatch! Please update all Essentials jars to the same version.
+[20:23:27] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[20:23:27] [Server thread/INFO]: [FakePlayersOnline] Enabling FakePlayersOnline v0.1.8
+[20:23:27] [Thread-14/INFO]: [TabList] -------------
+[20:23:27] [Thread-14/INFO]: [TabList] New update is available for TabList
+[20:23:27] [Thread-14/INFO]: [TabList] Your version: 5.6.8, New version 5.7.0
+[20:23:27] [Thread-14/INFO]: [TabList] Download: https://www.spigotmc.org/resources/46229/
+[20:23:27] [Thread-14/INFO]: [TabList] 
+[20:23:27] [Thread-14/INFO]: [TabList] Always consider upgrading to the latest version, which may include fixes.
+[20:23:27] [Thread-14/INFO]: [TabList] 
+[20:23:27] [Thread-14/INFO]: [TabList] To disable update checking, go to the config file
+[20:23:27] [Thread-14/INFO]: [TabList] -------------
+[20:23:27] [Server thread/INFO]: [FakePlayersOnline] Connected to ProtocolLib!
+[20:23:27] [Server thread/INFO]: [FakePlayersOnline] This version of FakePlayersOnline was not tested with CraftBukkit git-PaperSpigot-445 (MC: 1.8.8)
+[20:23:27] [Server thread/INFO]: [FakePlayersOnline] You can check updates at http://dev.bukkit.org/server-mods/fakeplayers/
+[20:23:27] [Server thread/INFO]: [Server Tutorial Plus] Enabling ServerTutorialPlus v1.24.5
+[20:23:27] [Server thread/INFO]: [Server Tutorial Plus] Enabling server tutorial...
+[20:23:27] [Server thread/INFO]: [Server Tutorial Plus] Using FlatFile as datasource...
+[20:23:27] [Server thread/INFO]: [Server Tutorial Plus] Using protocol: nl.martenm.servertutorialplus.reflection.v1_14.Protocol_1_14_V1
+[20:23:27] [Server thread/INFO]: [Server Tutorial Plus] PlaceholderAPI has been found!
+[20:23:27] [Server thread/INFO]: [Server Tutorial Plus] Servertutorial enabled successfully!
+[20:23:27] [Server thread/INFO]: [BedWars] Enabling BedWars v0.2.27.1
+[20:23:27] [Server thread/INFO]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[20:23:27] [Server thread/INFO]: [BedWars] Loading statistics from YAML-File ...
+[20:23:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bedwars [0.2.27.1]
+[20:23:27] [Server thread/INFO]: =====================  by ScreamingSandals <Misat11, Iamceph, Pronze>
+[20:23:27] [Server thread/INFO]: + Screaming BedWars +  Version: 0.2.27.1 FREE
+[20:23:27] [Server thread/INFO]: =====================  STABLE VERSION
+[20:23:27] [Server thread/INFO]: [BW] Found Vault
+[20:23:27] [Server thread/INFO]: [BW] You are using version 1.8! While this version is supported, it is a very old version and some features may not work as expected. Consider upgrading your server.
+[20:23:27] [Server thread/WARN]: [BedWars] Bedwars 0.3.0 will require at least Java 11. Your server is not prepared for it. Update your Java or contact your hosting. 
+[20:23:27] [Server thread/WARN]: [BedWars] https://docs.screamingsandals.org/Other/java11.html
+[20:23:27] [Server thread/INFO]: [BW] Arena Chained loaded!
+[20:23:27] [Server thread/INFO]: Everything is loaded! If you like our work, consider visiting our Patreon! <3
+[20:23:27] [Server thread/INFO]: https://www.patreon.com/screamingsandals
+[20:23:27] [Server thread/INFO]: [Sentinel] Enabling Sentinel v2.7.2-SNAPSHOT (build 502)
+[20:23:27] [Server thread/INFO]: [Sentinel] Sentinel loading...
+[20:23:27] [Server thread/INFO]: [Sentinel] Running on java version: 1.8.0_322
+[20:23:27] [Server thread/WARN]: [Sentinel] Sentinel loader failed to handle material name 'COBWEB', that material will not function (REPORT THIS ERROR!)
+[20:23:27] [Server thread/WARN]: [Sentinel] Sentinel loader failed to handle material name 'IRON_BARS', that material will not function (REPORT THIS ERROR!)
+[20:23:27] [Server thread/WARN]: [Sentinel] The version 1.8 is 7 years old (as of 2020) and therefore cannot be supported. Sentinel will work on this version, but we will not provide support if you have running it. Please update your server to a more recent minecraft version as soon as you are able. See also https://wiki.citizensnpcs.co/Minecraft_1.8
+[20:23:27] [Server thread/WARN]: [Sentinel] Sentinel Configuration value 'random.spectral sound' is set to an invalid sound name. This is usually an ignorable issue.
+[20:23:27] [Server thread/INFO]: [Sentinel] Vault linked! Group targets will work.
+[20:23:27] [Server thread/INFO]: [Sentinel] Sentinel found CrackShot! Adding support for it!
+[20:23:27] [Server thread/INFO]: [Sentinel] Sentinel found WorldGuard! Adding support for it!
+[20:23:27] [Server thread/INFO]: [Sentinel] Sentinel loaded!
+[20:23:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:23:28] [Server thread/INFO]: Done (17.943s)! For help, type "help" or "?"
+[20:23:28] [Server thread/INFO]: Timings Reset
+[20:23:28] [Server thread/INFO]: [CS-CoreLib2 - Protection] Loading Protection Modules...
+[20:23:28] [Server thread/INFO]: [CS-CoreLib2 - Protection] This may happen more than once.
+[20:23:28] [Server thread/WARN]: [CS-CoreLib] Task #70 for CS-CoreLib v1.6.2 generated an exception
+java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.modules.WorldGuardProtectionModule.load(WorldGuardProtectionModule.java:31) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.ProtectionManager.registerModule(ProtectionManager.java:162) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.cscorelib2.protection.ProtectionManager.<init>(ProtectionManager.java:57) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.protection.ProtectionManager.<init>(ProtectionManager.java:19) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.CSCoreLib.lambda$0(CSCoreLib.java:114) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:783) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_322]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_322]
+	... 12 more
+[20:23:28] [Server thread/INFO]: ------------------------
+[20:23:28] [Server thread/INFO]: Server is saved ...
+[20:23:28] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[20:23:28] [Server thread/INFO]: Successfully saved.
+[20:23:28] [Server thread/INFO]: ------------------------
+[20:23:28] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.0-b28)!
+[20:23:28] [Craft Scheduler Thread - 14/INFO]: §6Fetching version information...
+[20:23:28] [Thread-17/WARN]: [CS-CoreLib - Updater] Could not connect to BukkitDev, is it down?
+[20:23:28] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Essentials for Vault's Economy API
+[20:23:28] [Server thread/INFO]: [AuctionHouse] Registered Service Provider Vault for Vault's Chat API
+[20:23:28] [Craft Scheduler Thread - 13/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 7/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 0/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 1/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 2/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 9/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 4/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 5/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 12/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 11/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 10/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 6/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 8/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 13/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 1/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 21/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 15/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 7/INFO]: [LibsDisguises] Failed to check for a update on spigot. Now checking bukkit..
+[20:23:28] [Craft Scheduler Thread - 6/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 23/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 2/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 13/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 22/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 5/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 30/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 8/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 0/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 17/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 27/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 19/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 20/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 26/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 11/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 29/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 12/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 31/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 16/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 28/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 18/INFO]: [ajParkour] You are up to date! (2.12.10)
+[20:23:28] [Craft Scheduler Thread - 4/ERROR]: [iDisguise] Cannot retrieve the required profile information.
+java.lang.NullPointerException: null
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.loadGameProfile(ProfileHelperUID.java:77) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID.access$100(ProfileHelperUID.java:34) [iDisguise.jar:?]
+	at de.robingrether.idisguise.management.profile.ProfileHelperUID$3.run(ProfileHelperUID.java:227) [iDisguise.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_322]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_322]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_322]
+[20:23:28] [Craft Scheduler Thread - 3/INFO]: [BW] New RELEASE version 0.2.28 of BedWars is available!
+[20:23:28] [Craft Scheduler Thread - 3/INFO]: [BW] Download it from https://www.spigotmc.org/resources/63714/download?version=489864
+[20:23:29] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[20:23:29] [Server thread/INFO]: Animotion Loading up all animotions...
+[20:23:29] [Server thread/INFO]: Animotion All animotions have been loaded.
+[20:23:29] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:23:29] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:23:29] [Server thread/INFO]: [AuctionHouse] Found PlaceholderAPI plugin
+[20:23:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: auctionhouse [2.2.4]
+[20:23:29] [Server thread/INFO]: [AuctionHouse] Registered PlaceholderAPI placeholders
+[20:23:29] [Craft Scheduler Thread - 18/INFO]: [Vault] Checking for Updates ... 
+[20:23:29] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.2
+[20:23:29] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[20:23:29] [Server thread/INFO]: [HolographicDisplays] https://dev.bukkit.org/projects/holographic-displays
+[20:23:29] [Craft Scheduler Thread - 18/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.0
+[20:23:29] [Craft Scheduler Thread - 18/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[20:23:29] [Craft Scheduler Thread - 14/WARN]: §4You're §c25 §4EssentialsX dev build(s) out of date!
+[20:23:29] [Craft Scheduler Thread - 14/WARN]: §4Download it here:§c https://essentialsx.net/downloads.html
+[20:23:31] [Craft Scheduler Thread - 28/INFO]: [FakePlayersOnline] Failed to interact with Citizens API
+[20:23:31] [Craft Scheduler Thread - 14/WARN]: [TrollV4] TrollV4 has a update!
+[20:23:31] [Craft Scheduler Thread - 14/WARN]: [TrollV4] New Version: 4.5.13
+[20:23:31] [Craft Scheduler Thread - 14/WARN]: [TrollV4] Your Version: 4.5.11
+[20:23:31] [Craft Scheduler Thread - 14/WARN]: [TrollV4] Download here: https://www.spigotmc.org/resources/67318/updates

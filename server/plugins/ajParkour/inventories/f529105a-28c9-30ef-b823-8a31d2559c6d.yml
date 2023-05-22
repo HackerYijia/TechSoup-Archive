@@ -1,0 +1,57 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 6
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,116 @@
+name: Chained
+pauseCountdown: 60
+gameTime: 3600
+world: Chained
+pos1: 138.5;0.0;-1.5;90.1875;-36.28125
+pos2: -134.43574990234686;106.90053511038423;3.071127338437955;268.96875;37.515625
+specSpawn: 0.42408173446657627;104.58788229525089;1.4088952572473907;-0.65625;90.0
+lobbySpawn: 0.4120113229325342;118.0;0.5058246320095385;90.703125;90.0
+lobbySpawnWorld: Chained
+minPlayers: 2
+postGameWaiting: 3
+teams:
+  NX:
+    isNewColor: false
+    color: BLUE
+    maxPlayers: 10
+    bed: 70.0;65.0;0.0;0.0;0.0
+    spawn: 82.49695277388324;64.0;0.6364500223873377;269.65625;90.0
+  IM:
+    isNewColor: false
+    color: RED
+    maxPlayers: 10
+    bed: -70.0;65.0;0.0;0.0;0.0
+    spawn: -84.67157861203935;63.5;0.5133307113919185;269.76562;-0.53125
+spawners:
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -86.69999998807907;63.5;1.4941142670662237;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -86.665617113948;63.5;0.2270234578534483;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: -86.65175205402724;63.5;-0.6202976508622038;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 87.6999999880791;63.5;0.5111039665931988;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 87.6999999880791;63.5;-0.5526486368143841;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: -1
+  hologramEnabled: true
+  location: 87.64016879348975;63.5;1.6999999880790613;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: bronze
+stores:
+- isBaby: 'false'
+  loc: 81.61005128799684;64.0;0.43586541654548294;271.53125;90.0
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -81.61934106667559;64.0;0.31664437037850934;85.640625;90.0
+  parent: 'false'
+  shop: null
+  name: Villager_shop
+  skin: null
+  type: VILLAGER
+constant:
+  compass-enabled: inherit
+  add-wool-to-inventory-on-join: inherit
+  in-lobby-colored-leather-by-team: inherit
+  allow-crafting: inherit
+  join-randomly-after-lobby-timeout: inherit
+  join-randomly-on-lobby-join: inherit
+  keep-inventory-on-death: inherit
+  prevent-killing-villagers: inherit
+  player-drops: inherit
+  friendlyfire: inherit
+  lobbybossbar: inherit
+  bossbar: inherit
+  lobbyscoreboard: inherit
+  scoreboard: inherit
+  prevent-spawning-mobs: inherit
+  spawner-holograms: inherit
+  spawner-disable-merge: inherit
+  game-start-items: inherit
+  player-respawn-items: inherit
+  spawner-holograms-countdown: inherit
+  damage-when-player-is-not-in-arena: inherit
+  remove-unused-target-blocks: inherit
+  allow-block-falling: inherit
+  holo-above-bed: inherit
+  allow-spectator-join: inherit
+  anchor-auto-fill: inherit
+  anchor-decreasing: inherit
+  cake-target-block-eating: inherit
+  target-block-explosions: inherit
+arenaTime: WORLD
+arenaWeather: default
+lobbyBossBarColor: default
+gameBossBarColor: default

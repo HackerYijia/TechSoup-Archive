@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684347353495
+  login: 1684347140099
+money: '0'
+last-account-name: TOP_Bear
+lastlocation:
+  world: 401fd23e-0213-45c3-87a4-b93bb2f8c56e
+  world-name: KitPVP-Plain
+  x: -15.381735254052646
+  y: -186.64399409033936
+  z: 34.58950195551876
+  yaw: 117.22187805175781
+  pitch: -52.38750457763672
+logoutlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 242.55360120801694
+  y: 54.0
+  z: 1337.2609795721983
+  yaw: 185.31875610351562
+  pitch: -10.800008773803711

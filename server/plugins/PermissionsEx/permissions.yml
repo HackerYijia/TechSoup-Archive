@@ -1,0 +1,278 @@
+groups:
+  Member:
+    build: true
+    permissions:
+    - kp.*
+    - kp.menu
+    - essentials.enderchest
+    - essentials.pay
+    - essentials.sell.hand
+    - essentials.sell
+    - multiverse.core.confirm
+    - modifyworld.*
+    - kitpvp.menu
+    - kp.meny
+    - essentials.help
+    - essentials.rules
+    - essentials.motd
+    - essentials.afk
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.depth
+    - essentials.delhome
+    - essentials.help
+    - essentials.home
+    - essentials.kit
+    - essentials.kit.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.ping
+    - essentials.r
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.signs.use.disposal
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - kp.kit.witch
+    - kp.kit.soldier
+    - kp.kit.tank
+    - kp.kit.archer
+    - kp.kit.fighter
+    - kp.kit.warper
+    - kp.kit.kangaroo
+    - kp.kit.bomber
+    - kp.kit.thunderbolt
+    - kp.kit.*
+    options:
+      prefix: '&2[&aMember&2]&7 '
+      default: true
+  VIP:
+    inheritance:
+    - Guest
+    - Member
+    build: true
+    permissions:
+    - essentials.fly
+    - fly
+    - essentials.help
+    - essentials.rules
+    - essentials.motd
+    options:
+      prefix: '&6[&eVIP++&6]&7'
+      default: false
+  Mod:
+    inheritance:
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - essentials.compass
+    - essentials.home.compass
+    - essentials.tp
+    - essentials.repair
+    - essentials.sethome.multiple.staff
+    - essentials.helpop
+    - essentials.home.others
+    - essentials.nick
+    - essentials.warp
+    - essentials.warp.list
+    options:
+      prefix: '&1[&9Mod&1]&f '
+      default: false
+  Admin:
+    inheritance:
+    - Mod
+    - VIP
+    - Member
+    - Guest
+    build: true
+    permissions:
+    - essentials.gamemode
+    - essentials.give
+    - essentials.god
+    options:
+      prefix: '&9[&bAdmin&9]&f '
+      default: false
+  Owner:
+    build: true
+    permissions:
+    - '*'
+    options:
+      prefix: '&6[&cOwner&6]&7'
+      default: false
+  default:
+    permissions:
+    - kp.*
+    - kp.kit.fighter
+    - kp.kit.archer
+    - k[.kit.archer
+    - kp.kit.tank
+    - kp.kit.solder
+    - kp.kit.witch
+    - multiverse.core.confirm
+  Youtuber:
+    options:
+      prefix: '&6[&aYoutuber&6]&3'
+    permissions:
+    - '*'
+  God:
+    options:
+      prefix: '&6[&cGod&6]&7'
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  ee02c126-e5ba-3018-b0a4-50aafaec474b:
+    permissions:
+    - '*'
+    options:
+      name: NoxShadow_YT
+  0f1f6cd9-866f-3623-9489-420299346b92:
+    permissions: []
+    options:
+      name: edgar
+    group:
+    - Member
+  dab9ea72-d6b0-3756-b54a-ed17e78d1b0a:
+    permissions:
+    - '*'
+    - gadgetsmenu.menuselector
+    options:
+      name: Check_FN
+  4d7d406d-f8a5-34e6-82cc-1a76e054637f:
+    permissions:
+    - '*'
+    - globalchatting.default
+    options:
+      name: NX_YT
+    group:
+    - Member
+  ac7ce207-70c9-3a5a-842c-a97daee05bc3:
+    group:
+    - Admin
+    options:
+      name: ALM_Vic
+  3f06e98a-7d5f-34fe-8c84-b5ec7c729b64:
+    group:
+    - Owner
+    options:
+      name: Azak25
+  ade10734-e366-3e71-8181-4dced0a05279:
+    group:
+    - Mod
+    options:
+      name: Its_Black
+  7609cf65-943c-3fe3-b380-6a823b521bac:
+    group:
+    - Admin
+    options:
+      name: Flippyfishy
+  89586635-e1f9-3623-95f8-8439bc2af6a3:
+    group:
+    - Admin
+    options:
+      name: KrashedMC
+  57481c05-d0b6-36c2-b2e4-75db2383599c:
+    group:
+    - Admin
+    options:
+      name: MintX3
+  53adc6b8-ad27-345a-af2a-7691010ee2d9:
+    group:
+    - Mod
+    options:
+      name: Someone_YT
+    permissions:
+    - essentials.world
+    - kp.ability.*
+    - kp.abillity.*
+    - kp.command.menu
+  ae75a779-3aa7-384d-b84a-7c7f1566aa88:
+    group:
+    - Mod
+    options:
+      name: ZAMM
+  dab75cc0-ad08-343d-ab0a-b8bf76309f75:
+    permissions:
+    - '*'
+    options:
+      name: Techer_Gamer
+  8f3c06ba-c0db-3d21-858a-4785dadc31d5:
+    group:
+    - Mod
+    options:
+      name: max__
+  d9adea74-5157-3564-b17e-ce440ed1b471:
+    group:
+    - VIP
+    options:
+      name: Nitro
+  442493e3-52f9-350f-828e-7626c9b3b6cd:
+    group:
+    - Mod
+    options:
+      name: Enigma
+    permissions:
+    - essentials.fly
+  3730cfcd-8fca-3aef-ab9f-baed6f3412c6:
+    group:
+    - God
+    options:
+      name: WinixTV
+  0ba337b8-f9c6-3e74-8b15-37f706f97130:
+    group:
+    - Mod
+    options:
+      name: qwild
+  2de2f855-70ae-3681-8562-b5b6feb98757:
+    group:
+    - Mod
+    options:
+      name: HorizonYT
+  c5a601f1-e879-36ea-8c87-2441c43577f4:
+    permissions:
+    - '*'
+    options:
+      name: NX_YT_Alt
+    group:
+    - Owner
+  8a78f1dc-e40e-3a30-8190-b2ab6bd67c8e:
+    group:
+    - Youtuber
+    options:
+      name: Girraffeboy21YT
+  0c9cb827-4dee-3560-99e8-297f5898d363:
+    group:
+    - VIP
+    options:
+      name: Greaful
+  dce2fd9d-1dba-37f8-b707-3e7f54af138a:
+    group:
+    - VIP
+    options:
+      name: Jayjay1
+  cce44042-3123-3e70-919a-b72d94eec46a:
+    group:
+    - Owner
+    options:
+      name: IamNXForce
+  1c07c7e7-e159-398f-8694-26c758c0e7c1:
+    group:
+    - Admin
+    options:
+      name: vop11
+  8f5ca20b-d135-33b8-9ea1-41498dc50dd2:
+    group:
+    - Admin
+    options:
+      name: anu_sha_

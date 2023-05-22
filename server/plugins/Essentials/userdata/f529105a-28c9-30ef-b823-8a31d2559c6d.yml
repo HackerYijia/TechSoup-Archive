@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684542912580
+  login: 1684542668754
+money: '0'
+last-account-name: jakobi
+lastlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 242.5
+  y: 52.8039999961853
+  z: 1348.5
+  yaw: 51.786128997802734
+  pitch: 88.2195816040039
+logoutlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 244.06740068030086
+  y: 54.0
+  z: 1346.372164709325
+  yaw: 20.18536376953125
+  pitch: 16.517215728759766

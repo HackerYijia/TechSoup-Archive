@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "52428a0e-1e30-3cb1-976c-e728b2614047",
+    "name": "a",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d056c758-b6f8-3584-8823-33e44098aeb7",
+    "name": "CosmicXD",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1c07c7e7-e159-398f-8694-26c758c0e7c1",
+    "name": "vop11",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4d7d406d-f8a5-34e6-82cc-1a76e054637f",
+    "name": "NX_YT",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8f5ca20b-d135-33b8-9ea1-41498dc50dd2",
+    "name": "anu_sha_",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

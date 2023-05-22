@@ -1,0 +1,12 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+portals:
+  '1':
+    loc: world,237,54,1348,169.40625,90.0
+areas:
+  '1':
+    difficulty: EASY
+    max: 2147483647
+    pos1: world,225,68,1337,309.29688,71.09375
+    pos2: world,253,68,1361,309.29688,71.09375
+    fallpos: world,242,54,1348,174.54688,90.0

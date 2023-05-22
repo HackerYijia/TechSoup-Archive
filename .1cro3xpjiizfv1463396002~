@@ -1,0 +1,60 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: BED
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

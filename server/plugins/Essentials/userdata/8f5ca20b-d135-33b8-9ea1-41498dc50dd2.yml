@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684172596685
+  login: 1684170011631
+money: '0'
+last-account-name: anu_sha_
+lastlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 238.5
+  y: 53.0
+  z: 1355.5
+  yaw: 258.546875
+  pitch: 89.6875
+logoutlocation:
+  world: 401fd23e-0213-45c3-87a4-b93bb2f8c56e
+  world-name: KitPVP-Plain
+  x: 10.611331329284376
+  y: 9.0
+  z: -12.767051662178606
+  yaw: 106.63125610351562
+  pitch: 4.534371376037598

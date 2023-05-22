@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684627882683
+  login: 1684627718581
+money: '0'
+last-account-name: Snacksplayz
+lastlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 242.5
+  y: 52.90199999809265
+  z: 1348.5
+  yaw: 56.15625
+  pitch: 90.0
+logoutlocation:
+  world: 0c3991ab-ecbd-4e58-aa04-9cd1a7acb6e7
+  world-name: world
+  x: 242.24190688651703
+  y: 55.515555072702206
+  z: 1337.6297782798338
+  yaw: 185.0455322265625
+  pitch: 1.034544587135315

@@ -1,0 +1,66 @@
+inventory:
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    damage: -1
+    amount: 0
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §aKit Selector §7(Right Click)
+      blockMaterial: CHEST
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: WATCH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §aReturn to Hub §7(Right Click)
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
